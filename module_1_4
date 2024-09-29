@@ -1,0 +1,6 @@
+homework = 12
+hour = 1.5
+name = 'Курс:'
+time = 0.125
+name_lession = 'Python'
+prinqt(name, name_lession , 'всего задач:', homework, 'затрачено часов:', hour, 'среднее время выполнения:', time)
