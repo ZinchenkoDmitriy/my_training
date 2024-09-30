@@ -1,0 +1,7 @@
+immutable_var_tuple = 'apple', 'banan', 2, 3
+print(immutable_var_tuple)
+# immutable_var_tuple[1] = 5
+# print(immutable_var_tuple) # Не даёт заменить по причине: не любит обращение по элементам
+mutable_list = [1,2], 'coconut'
+mutable_list[0][1] = 5
+print(mutable_list)
