@@ -1,0 +1,12 @@
+my_dict = {'Home sell': 12000000, 'Home buy': 6000000, 'Artem': 903345774}
+print(my_dict['Home sell'])
+del my_dict ['Artem']
+my_dict.update({'Anton': 800333214,
+                'Marina': 70003124})
+print(my_dict)
+my_set = {'pineapple', 233, 333, 454, 'Artur'}
+print(set(my_set))
+print(my_set.add('apple'))
+print(my_set.add(5))
+print(my_set.remove(233))
+print(my_set)
